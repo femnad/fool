@@ -1,0 +1,9 @@
+<h1>{{ .Site.Title }}</h1>
+{{ .Content }}
+{{ range $name, $page := .Site.RegularPages }}
+<ul>
+  <li>
+    <a href="{{ .Permalink }}">{{ $page.Title }}</a>
+  </li>
+</ul>
+{{ end }}

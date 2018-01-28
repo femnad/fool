@@ -1,0 +1,11 @@
+{{ partial "header.html" }}
+
+<ul>
+  {{ range $name, $page := .Data.Pages }}
+  <li>
+    <a href="{{ .Permalink }}">{{ $page.Title }}</a>
+  </li>
+  {{ end }}
+</ul>
+
+{{ partial "footer.html" }}
