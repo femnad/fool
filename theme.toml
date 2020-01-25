@@ -1,0 +1,6 @@
+name = "fool Hugo Theme"
+description = "Probably the least usable, ugliest Hugo theme ever"
+homepage = "https://github.com/femnad/hugo-theme-fool"
+
+[author]
+  homepage = "https://github.com/femnad"
